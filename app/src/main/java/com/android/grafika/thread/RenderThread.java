@@ -1,10 +1,11 @@
-package com.android.grafika;
+package com.android.grafika.thread;
 
 import android.content.Context;
 import android.graphics.SurfaceTexture;
 import android.util.Log;
 import android.view.SurfaceHolder;
 
+import com.android.grafika.R;
 import com.android.grafika.common.BaseHandlerThread;
 import com.android.grafika.gles.Drawable2d;
 import com.android.grafika.gles.GlUtil;
@@ -32,7 +33,7 @@ public class RenderThread extends BaseHandlerThread implements SurfaceTexture.On
 
     private CameraHelper cameraHelper;
 
-    RenderThread(String name, Context context) {
+    public RenderThread(String name, Context context) {
         super(name);
         this.context = context;
     }
@@ -157,15 +158,15 @@ public class RenderThread extends BaseHandlerThread implements SurfaceTexture.On
         }
     }
 
-    void sendPositionUpdated(int posX, int posY) {
+    public void sendPositionUpdated(int posX, int posY) {
         handler.sendPositionUpdated(posX, posY);
     }
 
-    void sendSurfaceCreated(SurfaceHolder holder) {
+    public void sendSurfaceCreated(SurfaceHolder holder) {
         handler.sendSurfaceCreated(holder);
     }
 
-    void sendSurfaceChanged(int width, int height) {
+    public void sendSurfaceChanged(int width, int height) {
         handler.sendSurfaceChanged(width, height);
     }
 }

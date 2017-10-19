@@ -4,7 +4,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.view.SurfaceHolder;
 
-import com.android.grafika.RenderThread;
+import com.android.grafika.thread.RenderThread;
 
 import java.lang.ref.WeakReference;
 

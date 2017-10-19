@@ -8,6 +8,8 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
+import com.android.grafika.thread.RenderThread;
+
 public class DoublePictureActivity extends Activity implements SurfaceHolder.Callback {
 
     private static final String TAG = DoublePictureActivity.class.getSimpleName();
