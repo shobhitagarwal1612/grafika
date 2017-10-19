@@ -1,8 +1,5 @@
-.gradle
-.idea
+.gradle/
+.idea/
+build/
 local.properties
 *.iml
-
-# Android Studio files
-captures/
-build/
