@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.SurfaceHolder;
 
 import com.android.grafika.R;
-import com.android.grafika.common.BaseHandlerThread;
+import com.android.grafika.thread.common.BaseHandlerThread;
 import com.android.grafika.gles.Drawable2d;
 import com.android.grafika.gles.GlUtil;
 import com.android.grafika.gles.Sprite2d;

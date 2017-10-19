@@ -38,6 +38,7 @@ import android.widget.AdapterView.OnItemSelectedListener;
 import com.android.grafika.gles.EglCore;
 import com.android.grafika.gles.GlUtil;
 import com.android.grafika.gles.WindowSurface;
+import com.android.grafika.utils.MiscUtils;
 
 import java.lang.ref.WeakReference;
 

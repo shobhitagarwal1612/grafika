@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.grafika;
+package com.android.grafika.gles;
 
-import com.android.grafika.gles.Drawable2d;
+import com.android.grafika.MainActivity;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

@@ -9,6 +9,13 @@ import android.opengl.GLUtils;
 
 public class TextureHelper {
 
+    /**
+     * Load a bitmap texture in GLES
+     *
+     * @param context    Activity's context
+     * @param resourceId Resource id of the drawable
+     * @return textureId
+     */
     public static int loadTexture(final Context context, final int resourceId) {
         final int[] textureHandle = new int[1];
 

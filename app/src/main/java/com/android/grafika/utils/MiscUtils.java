@@ -14,13 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.grafika;
+package com.android.grafika.utils;
 
 import android.app.Activity;
 import android.content.Context;
 import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
+
+import com.android.grafika.MainActivity;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -34,7 +36,8 @@ import java.util.regex.Pattern;
 public class MiscUtils {
     private static final String TAG = MainActivity.TAG;
 
-    private MiscUtils() {}
+    private MiscUtils() {
+    }
 
     /**
      * Obtains a list of files that live in the specified directory and match the glob pattern.
@@ -43,7 +46,8 @@ public class MiscUtils {
         String regex = globToRegex(glob);
         final Pattern pattern = Pattern.compile(regex);
         String[] result = dir.list(new FilenameFilter() {
-            @Override public boolean accept(File dir, String name) {
+            @Override
+            public boolean accept(File dir, String name) {
                 Matcher matcher = pattern.matcher(name);
                 return matcher.matches();
             }

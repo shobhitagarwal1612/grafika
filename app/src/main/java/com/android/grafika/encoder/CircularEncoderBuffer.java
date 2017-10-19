@@ -14,10 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.grafika;
+package com.android.grafika.encoder;
 
 import android.media.MediaCodec;
 import android.util.Log;
+
+import com.android.grafika.MainActivity;
 
 import java.nio.ByteBuffer;
 
@@ -110,7 +112,6 @@ public class CircularEncoderBuffer {
      *
      * @param buf The data.  Set position() to the start offset and limit() to position+size.
      *     The position and limit may be altered by this method.
-     * @param size Number of bytes in the packet.
      * @param flags MediaCodec.BufferInfo flags.
      * @param ptsUsec Presentation time stamp, in microseconds.
      */

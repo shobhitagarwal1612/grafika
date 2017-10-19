@@ -25,6 +25,8 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.android.grafika.utils.DialogUtils;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -191,7 +193,7 @@ public class MainActivity extends ListActivity {
      * onClick handler for "about" menu item.
      */
     public void clickAbout(@SuppressWarnings("unused") MenuItem unused) {
-        AboutBox.display(this);
+        DialogUtils.display(this);
     }
 
     /**

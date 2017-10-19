@@ -33,8 +33,11 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.android.grafika.encoder.TextureMovieEncoder;
 import com.android.grafika.gles.FullFrameRect;
 import com.android.grafika.gles.Texture2dProgram;
+import com.android.grafika.utils.CameraUtils;
+import com.android.grafika.views.AspectFrameLayout;
 
 import java.io.File;
 import java.io.IOException;

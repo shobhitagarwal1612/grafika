@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.grafika;
+package com.android.grafika.utils;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -26,10 +26,13 @@ import android.util.Log;
 import android.view.InflateException;
 import android.view.View;
 
+import com.android.grafika.MainActivity;
+import com.android.grafika.R;
+
 /**
  * Creates and displays an "about" box.
  */
-public class AboutBox {
+public class DialogUtils {
     private static final String TAG = MainActivity.TAG;
 
     /**

@@ -31,10 +31,13 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.grafika.encoder.CircularEncoder;
 import com.android.grafika.gles.EglCore;
 import com.android.grafika.gles.FullFrameRect;
 import com.android.grafika.gles.Texture2dProgram;
 import com.android.grafika.gles.WindowSurface;
+import com.android.grafika.utils.CameraUtils;
+import com.android.grafika.views.AspectFrameLayout;
 
 import java.io.File;
 import java.io.IOException;

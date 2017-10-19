@@ -1,4 +1,4 @@
-package com.android.grafika.common;
+package com.android.grafika.thread.common;
 
 
 import android.opengl.GLES20;

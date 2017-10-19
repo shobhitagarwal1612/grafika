@@ -18,8 +18,6 @@ package com.android.grafika.gles;
 
 import android.opengl.Matrix;
 
-import com.android.grafika.ScaledDrawable2d;
-
 /**
  * Base class for a 2d object.  Includes position, scale, rotation, and flat-shaded color.
  */

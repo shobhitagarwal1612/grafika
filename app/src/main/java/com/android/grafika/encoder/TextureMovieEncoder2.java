@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.grafika;
+package com.android.grafika.encoder;
 
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
+
+import com.android.grafika.MainActivity;
 
 import java.lang.ref.WeakReference;
 

@@ -32,6 +32,7 @@ import android.content.res.Resources;
 
 import com.android.grafika.gles.EglCore;
 import com.android.grafika.gles.OffscreenSurface;
+import com.android.grafika.utils.WorkDialog;
 
 import java.io.File;
 import java.io.IOException;

@@ -31,6 +31,8 @@ import android.widget.CheckBox;
 import android.widget.Spinner;
 import android.widget.AdapterView.OnItemSelectedListener;
 
+import com.android.grafika.utils.MiscUtils;
+
 import java.io.File;
 import java.io.IOException;
 

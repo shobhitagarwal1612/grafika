@@ -5,7 +5,7 @@ import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
 import android.util.Log;
 
-import com.android.grafika.CameraUtils;
+import com.android.grafika.utils.CameraUtils;
 
 import java.io.IOException;
 

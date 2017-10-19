@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.grafika;
+package com.android.grafika.encoder;
 
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
@@ -25,6 +25,8 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 import android.view.Surface;
+
+import com.android.grafika.MainActivity;
 
 import java.io.File;
 import java.io.IOException;

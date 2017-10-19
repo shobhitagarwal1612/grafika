@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.grafika;
+package com.android.grafika.encoder;
 
 import android.graphics.SurfaceTexture;
 import android.opengl.EGLContext;
@@ -24,6 +24,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
+import com.android.grafika.MainActivity;
 import com.android.grafika.gles.EglCore;
 import com.android.grafika.gles.FullFrameRect;
 import com.android.grafika.gles.Texture2dProgram;
